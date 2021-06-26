@@ -84,67 +84,68 @@ h2 {
 }
 
 
-    /* creates the lever of zoom for hero image */
+/* creates the lever of zoom for hero image */
 
-    @keyframes hero-zoom {
-        from {
-            transform: scale(1);
-        }
-
-        to {
-            transform: scale(1.1);
-        }
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
     }
 
-    #cover-text, #cover-text h2 {
-        color: #fff;
+    to {
+        transform: scale(1.1);
     }
+}
 
-    #cover-text {
-        font-size: 130%;
-        font-family: Ozwald, sans-serif;
-        text-transform: uppercase;
-        letter-spacing: 4px;
-        width: 300px;
-        height: 200px;
+#cover-text,
+#cover-text h2 {
+    color: #fff;
+}
 
-        padding-top: 40px;
-        padding-left: 10px;
-        background-color: rgba(241,109,107, .7);
+#cover-text {
+    font-size: 130%;
+    font-family: Ozwald, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    width: 300px;
+    height: 200px;
 
-        bottom: 30px;
-        right:150px;
+    padding-top: 40px;
+    padding-left: 10px;
+    background-color: rgba(241, 109, 107, .7);
 
-        position: absolute;
+    bottom: 30px;
+    right: 150px;
 
-    }
+    position: absolute;
 
-    /* club ethos */
+}
 
-    #club-ethos {
-        height: 600px;
+/* club ethos */
 
-    }
+#club-ethos {
+    height: 600px;
+
+}
 
 #left-about {
     padding-top: 30px;
     width: 33%;
     float: left;
-    
+
 }
 
 #right-about {
     padding-top: 30px;
     width: 33%;
     float: right;
-    
+
 }
 
 #center-about {
     padding-top: 30px;
     width: 33%;
     margin: 0 auto;
-    background-color: green;
+
 }
 
 .left-about-heading {
@@ -175,4 +176,27 @@ hr {
 
 .right-about-heading p {
     text-align: right;
+}
+
+#welcome {
+    text-align: center;
+    margin: 20px;
+    font-size: 280%;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url(../images/ethos-center-image.jpg) no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
 }
