@@ -218,4 +218,9 @@ hr {
     width: 20%;
     height: 300px;
     float: left;
+    padding: 30px 0 0 10px;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+    /* Box sizing includes the border width in the total size of the element */
 }
