@@ -224,3 +224,7 @@ hr {
     box-sizing: border-box;
     /* Box sizing includes the border width in the total size of the element */
 }
+
+#times h2 {
+    color: #fafafa;
+}
